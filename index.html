@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Memory Simulation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Virtual Memory Simulation</h1>
+    <canvas id="memoryCanvas" width="800" height="400"></canvas>
+    <div class="controls">
+      <button id="startBtn">Start App</button>
+      <button id="stopBtn">Stop App</button>
+      <label for="algorithmSelect">Page Replacement Algorithm:</label>
+      <select id="algorithmSelect">
+        <option value="FIFO">FIFO</option>
+        <option value="LRU">LRU</option>
+        <option value="Optimal">Optimal</option>
+        <option value="LFU">LFU</option>
+      </select>
+      <label for="appSelect">Select App:</label>
+      <select id="appSelect">
+        <option value="App A">App A (4 units)</option>
+        <option value="App B">App B (3 units)</option>
+        <option value="App C">App C (5 units)</option>
+        <option value="App D">App D (2 units)</option>
+        <option value="App E">App E (6 units)</option>
+      </select>
+    </div>
+    <script src="simulation.js"></script>
+  </body>
+</html>

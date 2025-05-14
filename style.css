@@ -1,0 +1,19 @@
+.gametext1 {
+    color: rgb(60, 64, 63); /* Set your desired color */
+}
+.gametext {
+    color: rgb(215, 43, 24); /* Set your desired color */
+}
+.gametext2 {
+    color: #2899c6;
+}
+.rock{
+    color:aqua;
+}
+body{
+text-align: center;
+}
+.choiceBtn{
+    margin: 10px;;
+    display: block;
+}
